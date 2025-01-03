@@ -1,0 +1,60 @@
+*{margin:0px;
+  padding:0px}
+#proj_name{font-weight: bold;font-size: 30px;color:rgb(123, 120, 120);font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
+body{
+    background-color: antiquewhite;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+   height:100vh; 
+}
+.container{
+    border-radius:15px;
+    width:350px;
+    height:500px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    background-color: rgb(35, 32, 32);
+}
+.result{
+    box-sizing: border-box;
+    width:100%;
+    font-size: 3.8rem;
+    border:none;
+    background-color:black;
+    text-align:right;
+    font-weight: bold;
+    padding:20px;
+    outline:none;
+    border-radius: 15px;
+    color:white;
+}
+button.delete,button.AC,button.percentage,button.divide,button.multi,button.minus,button.plus{
+  color:rgb(255, 68, 0);
+}
+.equal{
+  background-color:rgb(255, 68, 0);
+  color:white;font-size: 30px;}
+.equal:hover{background-color:rgb(254, 78, 15) ;}
+.equal:active{background-color: rgb(252, 100, 44);}
+  button.percentage,button.divide,button.multi,button.minus,button.plus{
+    font-size: 30px;
+}
+button{
+  border:0.1px solid black;
+    border-radius:50%;
+    height:60px;
+    width:60px;
+    font-size:1.4rem;
+    margin:0 10px 5px 5px;
+    font-weight:bold;
+    cursor: pointer;
+    color:white;
+    box-shadow: -8px 8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+}
+button:hover{background-color: rgb(35, 35, 36);}
+button:active{background-color: rgb(41, 36, 36);}
+.row{text-align:center;
+    margin-top: 4.5px;
+    }
